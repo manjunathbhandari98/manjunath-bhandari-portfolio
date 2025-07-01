@@ -4,16 +4,18 @@ import { FC } from "react";
 const Logo: FC = () => {
   return (
     <div className="flex items-center gap-2 group cursor-pointer">
-    
-      {/* Optional Text */}
-      <div className="hidden sm:block">
-  <p className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500 text-xl font-extrabold tracking-widest drop-shadow-sm animate-pulse">
-    <span className="text-indigo-400">&lt;</span>
-    MB
-    <span className="text-pink-400">/&gt;</span>
-  </p>
-</div>
 
+      {/* Logo Text */}
+      <div className="hidden sm:block">
+        <p className="text-xl font-extrabold tracking-widest drop-shadow-sm transition-colors duration-300">
+          <span className="text-indigo-500 dark:text-indigo-400">&lt;</span>
+          <span className="text-black dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-r dark:from-indigo-400 dark:via-purple-400 dark:to-pink-500 animate-pulse">
+            MB
+          </span>
+          <span className="text-pink-500 dark:text-pink-400">/&gt;</span>
+        </p>
+      </div>
+      
     </div>
   );
 };

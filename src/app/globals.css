@@ -1,6 +1,34 @@
 @import "tailwindcss";
 
-body {
-    @apply bg-[#000f1e18] text-white font-mono; }
 
-    
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* globals.css */
+
+.light {
+    --bg-main: #ffffff;
+    --text-main: #000000;
+}
+
+.dark {
+    --bg-main: #000f1e;
+    --text-main: #ffffff;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+/* You can still apply font styles to body */
+body {
+    @apply font-mono;
+}
+
+/* 
+bg-white dark:bg-[#000f1e] text-black dark:text-white;
+transition: background-color 0.3s ease,
+color 0.3s ease */
+ 

@@ -6,13 +6,13 @@ const skillImages = {
   Java: "/skills/Java.png",
   Python: "/skills/Python.png",
   SQL: "/skills/SQL Developer.png",
-  Spring: "/skills/Spring.png",
-  HTML: "/skills/HTML5.png",
-  CSS: "/skills/CSS3.png",
-  Bootstrap: "/skills/Bootstrap.png",
-  Tailwind: "/skills/Tailwind CSS.png",
+  Spring: "/skills/SpringBoot.png",
+  HTML: "/skills/HTML.png",
+  CSS: "/skills/CSS.png",
+  Bootstrap: "/skills/BootstrapIcon.png",
+  Tailwind: "/skills/Tailwind.png",
   React: "/skills/React.png",
-  "Next.js": "/skills/Next.js.png",
+  Nextjs: "/skills/Next.js.png",
   MongoDB: "/skills/MongoDB.png",
   MySQL: "/skills/MySQL.png",
   PostgreSQL: "/skills/PostgresSQL.png",
@@ -24,6 +24,7 @@ const skillImages = {
   IntelliJ: "/skills/IntelliJ IDEA.png",
   WebStorm: "/skills/WebStorm.png",
   Vercel: "/skills/Vercel.png",
+  Vitejs: "/skills/Vite.js.png",
 };
 
 export default skillImages;
