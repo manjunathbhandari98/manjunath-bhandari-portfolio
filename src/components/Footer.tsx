@@ -6,8 +6,7 @@ import {
   Heart,
   Linkedin,
   Mail,
-  MapPin,
-  Phone,
+  MapPin
 } from "lucide-react";
 
 const Footer = () => {
@@ -60,10 +59,10 @@ const Footer = () => {
                   bhandarimanjunath98@gmail.com
                 </a>
               </div>
-              <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+              {/* <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                 <Phone size={18} />
                 <span>+91-9483669056</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                 <MapPin size={18} />
                 <span>Bhatkal, Karnataka, India</span>

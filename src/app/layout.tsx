@@ -21,6 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="font-jetbrains 
     ">
+       
         <ThemeProvider
         attribute='class'
         defaultTheme="dark"

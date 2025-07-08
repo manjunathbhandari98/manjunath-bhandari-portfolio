@@ -15,6 +15,8 @@ function Hero() {
     
     <section className="min-h-screen flex flex-col items-center justify-center px-6 py-12 text-center relative overflow-hidden">
       {/* Background elements - properly themed */}
+      
+      
       {mounted && (
         <>
           {/* Dark mode gradient */}
@@ -28,7 +30,7 @@ function Hero() {
           )}
         </>
       )}
-      {/* ✅ Foreground Content */}
+      {/*  Foreground Content */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}

@@ -10,7 +10,9 @@ import Skills from "@/sections/Skills";
 export default function Home() {
   
   return (
+    
     <main>
+      
       <Hero/>
       <About/>
       <Experience/>
