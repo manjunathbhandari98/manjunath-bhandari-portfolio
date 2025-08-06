@@ -1,29 +1,39 @@
-import { BriefcaseBusiness, ShoppingCart, Soup, SprayCan } from "lucide-react";
+import {
+  BriefcaseBusiness,
+  ShoppingBag,
+  ShoppingCart,
+  Soup,
+  SprayCan,
+} from "lucide-react";
 
 export const projects = [
   {
-    name: "Invizo - Retail shop Billing Website",
+    name: "28Miles - Streetwear E-commerce Website",
     description:
-      "A modern billing and inventory system for retail shops with real-time calculations and invoice generation.",
+      "A full-stack fashion e-commerce platform offering a premium streetwear shopping experience, complete with cart, wishlist, checkout, and order management.",
     keyFeatures: [
-      "Real-time billing calculations",
-      "Inventory management",
-      "Invoice generation and printing",
-      "Integrated payment gateway (Razorpay)",
+      "Real-time product search and filters",
+      "Guest and user cart functionality",
+      "Wishlist and order tracking",
+      "Admin product management dashboard",
+      "Secure payments via Razorpay",
+      "JWT-based user authentication",
+      "Mobile-first responsive design",
     ],
     techStacks: [
       "React",
-      "Spring Boot",
+      "Tailwind CSS",
       "JavaScript",
-      "MySQL",
-      "Bootstrap",
+      "Spring Boot",
+      "PostgreSQL",
       "Vercel",
       "Render",
+      "Razorpay",
     ],
-    icon: ShoppingCart,
-    gitLink: "https://github.com/manjunathbhandari98/Invizo",
-    liveLink: "https://invizo.vercel.app/",
-    bgColor: "from-blue-500 to-gray-900",
+    icon: ShoppingBag,
+    gitLink: "https://github.com/manjunathbhandari98/28-miles",
+    liveLink: "https://28miles.vercel.app/",
+    bgColor: "from-black to-neutral-800",
   },
   {
     name: "DineBoard – Digital Menu System",
@@ -49,6 +59,31 @@ export const projects = [
     liveLink: "https://dine-board.vercel.app/",
     bgColor: "from-indigo-600 to-purple-900",
   },
+  {
+    name: "Invizo - Retail shop Billing Website",
+    description:
+      "A modern billing and inventory system for retail shops with real-time calculations and invoice generation.",
+    keyFeatures: [
+      "Real-time billing calculations",
+      "Inventory management",
+      "Invoice generation and printing",
+      "Integrated payment gateway (Razorpay)",
+    ],
+    techStacks: [
+      "React",
+      "Spring Boot",
+      "JavaScript",
+      "MySQL",
+      "Bootstrap",
+      "Vercel",
+      "Render",
+    ],
+    icon: ShoppingCart,
+    gitLink: "https://github.com/manjunathbhandari98/Invizo",
+    liveLink: "https://invizo.vercel.app/",
+    bgColor: "from-blue-500 to-gray-900",
+  },
+
   {
     name: "Shringara – Event Decorator Website",
     description:
