@@ -15,7 +15,6 @@ export const projects = [
       "Real-time product search and filters",
       "Guest and user cart functionality",
       "Wishlist and order tracking",
-      "Admin product management dashboard",
       "Secure payments via Razorpay",
       "JWT-based user authentication",
       "Mobile-first responsive design",
@@ -68,6 +67,7 @@ export const projects = [
       "Inventory management",
       "Invoice generation and printing",
       "Integrated payment gateway (Razorpay)",
+      "Test Login: email:test@admin.com - password:admin",
     ],
     techStacks: [
       "React",
