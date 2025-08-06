@@ -32,7 +32,7 @@ export const projects = [
     ],
     icon: ShoppingBag,
     gitLink: "https://github.com/manjunathbhandari98/28-miles",
-    liveLink: "https://28miles.vercel.app/",
+    liveLink: "https://28-miles.vercel.app/",
     bgColor: "from-black to-neutral-800",
   },
   {
