@@ -1,5 +1,6 @@
 import {
   BriefcaseBusiness,
+  MessageSquare,
   ShoppingBag,
   ShoppingCart,
   Soup,
@@ -83,7 +84,22 @@ export const projects = [
     liveLink: "https://invizo.vercel.app/",
     bgColor: "from-blue-500 to-gray-900",
   },
-
+  {
+    name: "ExpressGPT – AI Chat Platform",
+    description:
+      "A conversational AI web application built using a public AI API, designed to deliver ChatGPT-like responses with a clean and modern UI.",
+    keyFeatures: [
+      "ChatGPT-like conversational interface",
+      "Supports markdown rendering",
+      "Copy to clipboard functionality",
+      "Responsive and minimal UI",
+    ],
+    techStacks: ["React", "TypeScript", "Tailwind CSS", "Gemini API", "Vercel"],
+    icon: MessageSquare,
+    gitLink: "https://github.com/manjunathbhandari98/expressGPT",
+    liveLink: "https://express-gpt.vercel.app/",
+    bgColor: "from-cyan-500 to-slate-900",
+  },
   {
     name: "Shringara – Event Decorator Website",
     description:
@@ -128,7 +144,6 @@ export const projects = [
     icon: BriefcaseBusiness,
     gitLink: "https://github.com/manjunathbhandari98/JobSpark",
     liveLink: "https://jobsparkx.netlify.app/",
-
     bgColor: "from-pink-500 to-violet-800",
   },
 ];
