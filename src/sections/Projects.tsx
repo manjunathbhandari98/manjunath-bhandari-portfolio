@@ -1,9 +1,24 @@
+import ScreenshotModal from "@/components/ScreenshotModal";
 import SectionTitle from "@/components/SectionTitle";
 import { projects } from "@/data/projects";
-import { ExternalLink, Github } from "lucide-react";
+import { ProjectType } from "@/type";
+import { ExternalLink, Github, Wallpaper } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 
-function Projects() {
+const Projects = () => {
+  const [selectedProject, setSelectedProject] = useState<ProjectType | null>(
+    null
+  );
+
+  const openModal = (project: ProjectType) => {
+    setSelectedProject(project);
+  };
+
+  const closeModal = () => {
+    setSelectedProject(null);
+  };
+
   return (
     <section id="projects" className="py-20 relative z-10">
       {/* Optional blurred background – only in dark mode */}
@@ -31,6 +46,14 @@ function Projects() {
                     <Icon className="w-8 h-8" />
                   </div>
                   <div className="absolute top-5 right-5 flex space-x-3">
+                    {project.screenshots && (
+                      <div
+                        onClick={() => openModal(project)}
+                        className="p-2 bg-white/20 rounded-lg hover:bg-white/30 cursor-pointer transition-colors"
+                      >
+                        <Wallpaper />
+                      </div>
+                    )}
                     {project.gitLink && (
                       <Link
                         href={project.gitLink}
@@ -114,8 +137,11 @@ function Projects() {
           </Link>
         </div>
       </div>
+      {selectedProject && (
+        <ScreenshotModal project={selectedProject} closeModal={closeModal} />
+      )}
     </section>
   );
-}
+};
 
 export default Projects;

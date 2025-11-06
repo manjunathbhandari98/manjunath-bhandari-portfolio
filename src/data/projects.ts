@@ -10,6 +10,7 @@ import {
 export const projects = [
   {
     name: "28Miles - Streetwear E-commerce Website",
+    slug: "28miles-streetwear-ecommerce-website",
     description:
       "A full-stack fashion e-commerce platform offering a premium streetwear shopping experience, complete with cart, wishlist, checkout, and order management.",
     keyFeatures: [
@@ -31,12 +32,31 @@ export const projects = [
       "Razorpay",
     ],
     icon: ShoppingBag,
+screenshots: {
+  desktop: [
+    '/screenshots/28-miles/home.png',
+    '/screenshots/28-miles/category.png',
+    '/screenshots/28-miles/products.png',
+    '/screenshots/28-miles/product-info.png',
+    '/screenshots/28-miles/cart.png',
+  ],
+  mobile: [
+    '/screenshots/28-miles/ss1.jpg',
+    '/screenshots/28-miles/ss2.jpg',
+    '/screenshots/28-miles/ss3.jpg',
+    '/screenshots/28-miles/ss4.jpg',
+    '/screenshots/28-miles/ss5.jpg',
+    '/screenshots/28-miles/ss6.jpg',
+  ],
+},
+
     gitLink: "https://github.com/manjunathbhandari98/28-miles",
     liveLink: "https://28-miles.vercel.app/",
     bgColor: "from-black to-neutral-800",
   },
   {
     name: "DineBoard – Digital Menu System",
+    slug: "dineboard-digital-menu-system",
     description:
       "Restaurant menu app with QR code browsing for seamless customer experience.",
     keyFeatures: [
@@ -55,12 +75,17 @@ export const projects = [
       "Render",
     ],
     icon: Soup,
+    screenshots: {
+      desktop:[],
+      mobile:[]
+    },
     gitLink: "https://github.com/manjunathbhandari98/DineBoard",
     liveLink: "https://dine-board.vercel.app/",
     bgColor: "from-indigo-600 to-purple-900",
   },
   {
     name: "Invizo - Retail shop Billing Website",
+    slug: "invizo-retail-shop-billing-website",
     description:
       "A modern billing and inventory system for retail shops with real-time calculations and invoice generation.",
     keyFeatures: [
@@ -80,12 +105,17 @@ export const projects = [
       "Render",
     ],
     icon: ShoppingCart,
+      screenshots: {
+      desktop:[],
+      mobile:[]
+    },
     gitLink: "https://github.com/manjunathbhandari98/Invizo",
     liveLink: "https://invizo.vercel.app/",
     bgColor: "from-blue-500 to-gray-900",
   },
   {
     name: "ExpressGPT – AI Chat Platform",
+    slug: "expressgpt-ai-chat-platform",
     description:
       "A conversational AI web application built using a public AI API, designed to deliver ChatGPT-like responses with a clean and modern UI.",
     keyFeatures: [
@@ -96,12 +126,17 @@ export const projects = [
     ],
     techStacks: ["React", "TypeScript", "Tailwind CSS", "Gemini API", "Vercel"],
     icon: MessageSquare,
+      screenshots: {
+      desktop:[],
+      mobile:[]
+    },
     gitLink: "https://github.com/manjunathbhandari98/expressGPT",
     liveLink: "https://express-gpt.vercel.app/",
     bgColor: "from-cyan-500 to-slate-900",
   },
   {
     name: "Shringara – Event Decorator Website",
+    slug: "shringara-event-decorator-website",
     description:
       "Portfolio site for a wedding and stage decoration business with elegant design showcase.",
     keyFeatures: [
@@ -120,12 +155,17 @@ export const projects = [
       "Render",
     ],
     icon: SprayCan,
+      screenshots: {
+      desktop:[],
+      mobile:[]
+    },
     gitLink: "https://github.com/manjunathbhandari98/Shringara",
     liveLink: "https://shringara.netlify.app/",
     bgColor: "from-emerald-500 to-slate-800",
   },
   {
     name: "Jobspark – Job Search Platform",
+    slug: "jobspark-job-search-platform",
     description:
       "Job portal with comprehensive recruiter and applicant dashboards for efficient hiring.",
     keyFeatures: [
@@ -142,6 +182,10 @@ export const projects = [
       "TailwindCSS",
     ],
     icon: BriefcaseBusiness,
+     screenshots: {
+      desktop:[],
+      mobile:[]
+    },
     gitLink: "https://github.com/manjunathbhandari98/JobSpark",
     liveLink: "https://jobsparkx.netlify.app/",
     bgColor: "from-pink-500 to-violet-800",
