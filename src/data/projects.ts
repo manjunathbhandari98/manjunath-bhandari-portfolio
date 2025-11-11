@@ -135,34 +135,36 @@ screenshots: {
     bgColor: "from-cyan-500 to-slate-900",
   },
   {
-    name: "Shringara – Event Decorator Website",
-    slug: "shringara-event-decorator-website",
-    description:
-      "Portfolio site for a wedding and stage decoration business with elegant design showcase.",
-    keyFeatures: [
-      "Portfolio showcase",
-      "Service catalog",
-      "Admin and User website",
-      "Image galleries",
-    ],
-    techStacks: [
-      "React",
-      "Spring Boot",
-      "JavaScript",
-      "MySQL",
-      "Bootstrap",
-      "Netlify",
-      "Render",
-    ],
-    icon: SprayCan,
-      screenshots: {
-      desktop:[],
-      mobile:[]
-    },
-    gitLink: "https://github.com/manjunathbhandari98/Shringara",
-    liveLink: "https://shringara.netlify.app/",
-    bgColor: "from-emerald-500 to-slate-800",
+  name: "Matchbox – Task & Project Management Platform",
+  slug: "matchbox-task-project-management-platform",
+  description:
+    "A powerful team collaboration and productivity platform that helps users manage projects, track tasks, and monitor performance with real-time updates and analytics.",
+  keyFeatures: [
+    "Team and user management",
+    "Task creation, assignment, and tracking",
+    "Progress analytics and efficiency reports",
+    "Role-based authentication and secure access",
+    "Modern dashboard UI for admins and users",
+    "Real-time updates and notifications",
+  ],
+  techStacks: [
+    "React",
+    "TypeScript",
+    "Spring Boot",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "Render",
+    "Vercel",
+  ],
+  icon: ClipboardList,
+  screenshots: {
+    desktop: [],
+    mobile: [],
   },
+  gitLink: "https://github.com/manjunathbhandari98/matchbox-frontend", // update if needed
+  liveLink: "https://matchbox-zeta.vercel.app/", 
+  bgColor: "from-blue-500 to-indigo-800",
+},
   {
     name: "Jobspark – Job Search Platform",
     slug: "jobspark-job-search-platform",
