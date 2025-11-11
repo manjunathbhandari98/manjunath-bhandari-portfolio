@@ -3,6 +3,7 @@ import {
   MessageSquare,
   ShoppingBag,
   ShoppingCart,
+  ClipboardList,
   Soup,
   SprayCan,
 } from "lucide-react";
@@ -144,8 +145,7 @@ screenshots: {
     "Task creation, assignment, and tracking",
     "Progress analytics and efficiency reports",
     "Role-based authentication and secure access",
-    "Modern dashboard UI for admins and users",
-    "Real-time updates and notifications",
+    "Modern dashboard UI"
   ],
   techStacks: [
     "React",
@@ -161,7 +161,7 @@ screenshots: {
     desktop: [],
     mobile: [],
   },
-  gitLink: "https://github.com/manjunathbhandari98/matchbox-frontend", // update if needed
+  gitLink: "https://github.com/manjunathbhandari98/matchbox-frontend", 
   liveLink: "https://matchbox-zeta.vercel.app/", 
   bgColor: "from-blue-500 to-indigo-800",
 },
