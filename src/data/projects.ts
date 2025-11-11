@@ -4,8 +4,7 @@ import {
   ShoppingBag,
   ShoppingCart,
   ClipboardList,
-  Soup,
-  SprayCan,
+  Soup
 } from "lucide-react";
 
 export const projects = [
