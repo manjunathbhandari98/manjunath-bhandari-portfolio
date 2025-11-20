@@ -76,8 +76,21 @@ screenshots: {
     ],
     icon: Soup,
     screenshots: {
-      desktop:[],
-      mobile:[]
+      desktop:[
+          '/screenshots/Dineboard/home.png',
+          '/screenshots/Dineboard/add-menu-items.png',
+          '/screenshots/Dineboard/menu.png',
+          '/screenshots/Dineboard/menu-item.png',
+          '/screenshots/Dineboard/pricings.png',
+          '/screenshots/Dineboard/qr-code.png',
+          '/screenshots/Dineboard/hotel-profile.png',
+      ],
+      mobile:[
+          '/screenshots/Dineboard/mbl-1.jpg',
+          '/screenshots/Dineboard/mbl-2.jpg',
+          '/screenshots/Dineboard/mbl-3.jpg',
+          '/screenshots/Dineboard/mbl-4.jpg',
+      ]
     },
     gitLink: "https://github.com/manjunathbhandari98/DineBoard",
     liveLink: "https://dine-board.vercel.app/",
