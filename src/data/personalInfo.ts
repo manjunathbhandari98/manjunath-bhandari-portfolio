@@ -2,7 +2,7 @@
 import { Code, Database, MonitorSmartphone, Smartphone } from "lucide-react";
 
 export const personalInfo = {
-  about: `Motivated and self-driven Full Stack Developer with hands-on experience in building scalable web applications using React, Next.js, and Spring Boot. Proficient in Java, JavaScript, TypeScript, and SQL. Passionate about clean code, seamless UI/UX, and continuous learning.`,
+  about: `Full Stack Developer with hands-on experience in building scalable web applications using React, Next.js, and Spring Boot. Proficient in Java, JavaScript, TypeScript, and SQL. Passionate about clean code, seamless UI/UX, and continuous learning.`,
 
   highlights: [
     {

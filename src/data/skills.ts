@@ -18,6 +18,7 @@ export const allSkills = [
   { name: "React", img: skillImages.React, category: "Frontend" },
   { name: "Next.js", img: skillImages.Nextjs, category: "Frontend" },
   { name: "Vite js", img: skillImages.Vitejs, category: "Frontend" },
+  { name: "Angular", img: skillImages.Angular, category: "Frontend" },
   { name: "HTML", img: skillImages.HTML, category: "Frontend" },
   { name: "CSS", img: skillImages.CSS, category: "Frontend" },
   { name: "Bootstrap", img: skillImages.Bootstrap, category: "Frontend" },

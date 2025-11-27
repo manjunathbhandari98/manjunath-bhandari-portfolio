@@ -25,6 +25,7 @@ const skillImages = {
   WebStorm: "/skills/WebStorm.png",
   Vercel: "/skills/Vercel.png",
   Vitejs: "/skills/Vite.js.png",
+  Angular: '/skills/angular.png'
 };
 
 export default skillImages;

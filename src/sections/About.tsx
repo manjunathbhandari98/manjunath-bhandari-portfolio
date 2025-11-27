@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import SectionTitle from "@/components/SectionTitle";
 import { personalInfo } from "@/data/personalInfo";
@@ -15,7 +15,9 @@ function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 items-start">
         {/* Left - About Text */}
         <div className="space-y-6 md:text-lg text-md leading-relaxed">
-          <p className="dark:text-gray-300 text-gray-800">{personalInfo.about}</p>
+          <p className="dark:text-gray-300 text-gray-800">
+            {personalInfo.about}
+          </p>
 
           <p className="italic text-sm dark:text-indigo-400 text-indigo-950">
             “Code is poetry. Clean, scalable, and crafted with love.”
@@ -23,7 +25,7 @@ function About() {
 
           {/* Resume Button */}
           <a
-            href="/Manjunath-Bhandari-Resume.pdf"
+            href="/Manjunath-Bhandari-FS-Resume.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
