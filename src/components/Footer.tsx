@@ -6,7 +6,7 @@ import {
   Heart,
   Linkedin,
   Mail,
-  MapPin
+  MapPin,
 } from "lucide-react";
 
 const Footer = () => {
@@ -21,6 +21,7 @@ const Footer = () => {
   ];
 
   const featuredProjects = [
+    { name: "28 Miles", description: "Ecommerce Fashion Store" },
     { name: "Invizo", description: "Retail Billing System" },
     { name: "DineBoard", description: "Digital Menu System" },
     { name: "Shringara", description: "Event Decorator Site" },
